@@ -1,0 +1,22 @@
+{
+  "name": "edenart-meme-generator",
+  "version": "1.0.0",
+  "description": "Edenart meme generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martient/edenart-meme-generator.git"
+  },
+  "keywords": [
+    "meme"
+  ],
+  "author": "Arnaud (Martient)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martient/edenart-meme-generator/issues"
+  },
+  "homepage": "https://github.com/martient/edenart-meme-generator#readme"
+}
