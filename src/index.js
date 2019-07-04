@@ -20,12 +20,12 @@ function generateMeme (img, topText, bottomText, topTextSize, bottomTextSize) {
 
     // Text style: white with black borders
     ctx.fillStyle = 'white';
-    ctx.strokeStyle = 'black';
+    ctx.strokeStyle = 'white';
     ctx.textAlign = 'center';
 
     // Top text font size
     fontSize = canvas.width * topTextSize;
-    ctx.font = fontSize + 'px Impact';
+    ctx.font = fontSize + 'px Arial';
     ctx.lineWidth = fontSize / 20;
 
     // Draw top text
@@ -37,7 +37,7 @@ function generateMeme (img, topText, bottomText, topTextSize, bottomTextSize) {
 
     // Bottom text font size
     fontSize = canvas.width * bottomTextSize;
-    ctx.font = fontSize + 'px Impact';
+    ctx.font = fontSize + 'px Arial';
     ctx.lineWidth = fontSize / 20;
 
     // Draw bottom text
@@ -63,7 +63,7 @@ function init () {
     canvas.width = canvas.height = 0;
 
     // Default/Demo text
-    topTextInput.value = bottomTextInput.value = 'Demo\nText';
+    topTextInput.value = bottomTextInput.value = 'Edenart\nle BTS';
 
     // Generate button click listener
     generateBtn.addEventListener('click', function () {
